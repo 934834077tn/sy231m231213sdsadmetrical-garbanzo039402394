@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutroCloud Documentation - Free Cloud Hosting, VPS, Node.js, Python Hosting Guide</title>
+    <meta name="description" content="Complete guide for NutroCloud free cloud hosting services. Learn how to deploy Node.js apps, Python applications, MySQL databases, and VPS servers. Free tier with unlimited time, perfect for developers and students.">
+    <meta name="keywords" content="nutrocloud, free hosting, cloud hosting, vps hosting, nodejs hosting, python hosting, mysql database, free vps, discord bot hosting, web hosting, server management, cloud computing, free cloud services">
+    <meta name="author" content="NutroCloud">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="NutroCloud Documentation - Free Cloud Hosting Guide">
+    <meta property="og:description" content="Complete documentation for NutroCloud free cloud hosting. Deploy Node.js, Python, MySQL, and VPS servers for free.">
+    <meta property="og:image" content="https://nutro.cloud/assets/images/fav.png">
+    <meta property="og:url" content="https://docs.nutro.cloud">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="NutroCloud Documentation">
+    <meta name="twitter:description" content="Free cloud hosting guide for developers">
+    <link rel="canonical" href="https://docs.nutro.cloud">
+    <link rel="icon" href="https://nutro.cloud/assets/images/fav.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "TechArticle",
+      "headline": "NutroCloud Complete User Guide",
+      "description": "Comprehensive documentation for NutroCloud free cloud hosting services",
+      "author": {
+        "@type": "Organization",
+        "name": "NutroCloud"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "NutroCloud",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://nutro.cloud/assets/images/fav.png"
+        }
+      }
+    }
+    </script>
+</head>
+<body>
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <div class="logo-container">
+                <img src="https://nutro.cloud/assets/images/fav.png" alt="NutroCloud Logo" class="logo">
+                <h2>NutroCloud</h2>
+            </div>
+        </div>
+        <nav class="sidebar-nav">
+            <a href="#overview" class="nav-item active"><i class="fas fa-home"></i> Overview</a>
+            <a href="#quick-start" class="nav-item"><i class="fas fa-rocket"></i> Quick Start</a>
+            <a href="#dashboard" class="nav-item"><i class="fas fa-chart-line"></i> Dashboard</a>
+            <a href="#vps" class="nav-item"><i class="fas fa-server"></i> VPS Management</a>
+            <a href="#domains" class="nav-item"><i class="fas fa-globe"></i> Domains</a>
+            <a href="#hosting" class="nav-item"><i class="fas fa-database"></i> Web Hosting</a>
+            <a href="#billing" class="nav-item"><i class="fas fa-credit-card"></i> Billing</a>
+            <a href="#support" class="nav-item"><i class="fas fa-headset"></i> Support</a>
+            <a href="#settings" class="nav-item"><i class="fas fa-cog"></i> Settings</a>
+            <a href="#faq" class="nav-item"><i class="fas fa-question-circle"></i> FAQ</a>
+            <a href="#nutro-free" class="nav-item"><i class="fas fa-gift"></i> Nutro Free</a>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+        <header class="header">
+            <button class="menu-toggle" id="menuToggle"><i class="fas fa-bars"></i></button>
+            <div class="header-actions">
+                <div id="google_translate_element"></div>
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search documentation..." id="searchInput">
+                </div>
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </header>
+
+        <div class="content">
+            <section id="overview" class="section">
+                <div class="section-header">
+                    <h1>NutroCloud User Guide</h1>
+                    <p class="subtitle">Welcome to NutroCloud! This comprehensive guide will help you understand and use all platform services easily.</p>
+                </div>
+                <div class="cards-grid">
+                    <div class="card">
+                        <i class="fas fa-rocket card-icon"></i>
+                        <h3>Quick Start</h3>
+                        <p>Get started with NutroCloud in minutes</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-server card-icon"></i>
+                        <h3>VPS Servers</h3>
+                        <p>Complete management of your virtual servers</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-globe card-icon"></i>
+                        <h3>Domains</h3>
+                        <p>Register and manage your domains easily</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-headset card-icon"></i>
+                        <h3>24/7 Support</h3>
+                        <p>Our support team is always ready to help</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="quick-start" class="section">
+                <h2><i class="fas fa-rocket"></i> Quick Start</h2>
+                <div class="content-block">
+                    <h3>Login</h3>
+                    <ol>
+                        <li>Open the website: <code>https://pro.nutro.cloud/login</code></li>
+                        <li>Enter your username and password</li>
+                        <li>Click "Login"</li>
+                    </ol>
+                    <div class="alert alert-info">
+                        <i class="fas fa-info-circle"></i>
+                        <div>
+                            <strong>First time?</strong>
+                            <p>An interactive tour will appear automatically, taking just 2 minutes to explain all dashboard sections</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="dashboard" class="section">
+                <h2><i class="fas fa-chart-line"></i> Dashboard</h2>
+                <div class="content-block">
+                    <h3>Services Overview</h3>
+                    <p>Upon login, you'll find a table displaying all your active services with the following information:</p>
+                    <div class="table-responsive">
+                        <table class="docs-table">
+                            <thead>
+                                <tr>
+                                    <th>Item</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Service Name</strong></td>
+                                    <td>Service type + number (e.g., VPS 1, Domain 2)</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Expiry Date</strong></td>
+                                    <td>When the service expires</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Status</strong></td>
+                                    <td>Active or Suspended</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="alert alert-warning">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <div>
+                            <strong>Renewal Alerts</strong>
+                            <p>The system displays color-coded alerts based on days remaining: Green (+15 days), Yellow (5-15 days), Red (-5 days)</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="vps" class="section">
+                <h2><i class="fas fa-server"></i> VPS Management</h2>
+                <div class="content-block">
+                    <h3>Accessing Your VPS</h3>
+                    <ol>
+                        <li>From the sidebar → Click <strong>VPS</strong></li>
+                        <li>Or from the services table → Click <strong>Manage</strong> next to VPS</li>
+                    </ol>
+                    
+                    <h3>Your VPS Information</h3>
+                    <ul>
+                        <li><strong>IP Address:</strong> Server IP address</li>
+                        <li><strong>Username:</strong> Login username</li>
+                        <li><strong>Password:</strong> Login password</li>
+                        <li><strong>Operating System:</strong> Installed OS (Ubuntu, CentOS, etc.)</li>
+                        <li><strong>Resources:</strong> RAM, CPU, Storage</li>
+                    </ul>
+
+                    <h3>SSH Access</h3>
+                    <div class="code-block">
+                        <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i></button>
+                        <pre><code>ssh username@your-ip-address
+# Enter password when prompted</code></pre>
+                    </div>
+
+                    <h3>VPS Management</h3>
+                    <div class="cards-grid">
+                        <div class="card">
+                            <i class="fas fa-redo card-icon"></i>
+                            <h4>Restart</h4>
+                            <p>Click Restart VPS and wait 2-3 minutes</p>
+                        </div>
+                        <div class="card">
+                            <i class="fas fa-chart-bar card-icon"></i>
+                            <h4>Performance Monitoring</h4>
+                            <p>Track CPU, RAM, and disk usage</p>
+                        </div>
+                        <div class="card">
+                            <i class="fas fa-shield-alt card-icon"></i>
+                            <h4>Security</h4>
+                            <p>Manage Firewall Rules and backups</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="domains" class="section">
+                <h2><i class="fas fa-globe"></i> Domain Management</h2>
+                <div class="content-block">
+                    <h3>View Your Domains</h3>
+                    <p>From the sidebar → <strong>Domains</strong> to view all your domains</p>
+
+                    <h3>DNS Management</h3>
+                    <p>You can add and edit different DNS records:</p>
+                    <ul>
+                        <li><strong>A Record:</strong> Link domain to IP</li>
+                        <li><strong>CNAME:</strong> Create subdomain</li>
+                        <li><strong>MX Record:</strong> Setup email</li>
+                        <li><strong>TXT Record:</strong> For verification and security</li>
+                    </ul>
+
+                    <h3>Example: Link Domain to VPS</h3>
+                    <div class="code-block">
+                        <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i></button>
+                        <pre><code>Type: A
+Name: @
+Value: 123.456.789.0 (Your VPS IP)
+TTL: 3600</code></pre>
+                    </div>
+
+                    <div class="alert alert-info">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <strong>Propagation Time</strong>
+                            <p>DNS updates may take 24 to 48 hours to propagate globally</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="hosting" class="section">
+                <h2><i class="fas fa-database"></i> Web Hosting</h2>
+                <div class="content-block">
+                    <h3>Access Control Panel</h3>
+                    <p>Sidebar → <strong>Web Hosting</strong> → Click <strong>Open controlpanel</strong></p>
+
+                    <h3>Upload Your Website</h3>
+                    <div class="tabs">
+                        <div class="tab-buttons">
+                            <button class="tab-btn active" onclick="switchTab(event, 'filemanager')">File Manager</button>
+                            <button class="tab-btn" onclick="switchTab(event, 'ftp')">FTP</button>
+                        </div>
+                        <div id="filemanager" class="tab-content active">
+                            <ol>
+                                <li>Open filemanager page</li>
+                                <li>Click <strong>File Manager</strong></li>
+                                <li>Go to <code>public_html</code> folder</li>
+                                <li>Click <strong>Upload</strong></li>
+                                <li>Upload your website files</li>
+                            </ol>
+                        </div>
+                        <div id="ftp" class="tab-content">
+                            <div class="code-block">
+                                <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i></button>
+                                <pre><code>Host: ftp.yoursite.com
+Username: your-username
+Password: your-password
+Port: 21</code></pre>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3>Install WordPress</h3>
+                    <ol>
+                        <li>webhosting → <strong>nutro one click</strong></li>
+                        <li>Select <strong>WordPress</strong></li>
+                        <li>Click <strong>Install</strong></li>
+                        <li>Fill in the required information</li>
+                        <li>Click <strong>Install</strong></li>
+                    </ol>
+                </div>
+            </section>
+
+            <section id="billing" class="section">
+                <h2><i class="fas fa-credit-card"></i> Billing & Payments</h2>
+                <div class="content-block">
+                    <h3>Available Payment Methods</h3>
+                    <div class="cards-grid">
+                        <div class="card">
+                            <i class="fas fa-credit-card card-icon"></i>
+                            <h4>Credit Cards</h4>
+                            <p>Visa, Mastercard</p>
+                        </div>
+                        <div class="card">
+                            <i class="fab fa-paypal card-icon"></i>
+                            <h4>PayPal</h4>
+                            <p>Secure payment via PayPal</p>
+                        </div>
+                        <div class="card">
+                            <i class="fas fa-university card-icon"></i>
+                            <h4>Bank Transfer</h4>
+                            <p>Direct bank transfer</p>
+                        </div>
+                        <div class="card">
+                            <i class="fas fa-wallet card-icon"></i>
+                            <h4>E-Wallets</h4>
+                            <p>Multiple payment options</p>
+                        </div>
+                    </div>
+
+                    <h3>Enable Auto-Renewal</h3>
+                    <ol>
+                        <li>Go to the service</li>
+                        <li>Click <strong>Settings</strong></li>
+                        <li>Enable <strong>Auto-Renew</strong></li>
+                        <li>Select payment method</li>
+                        <li>Save changes</li>
+                    </ol>
+                </div>
+            </section>
+
+            <section id="support" class="section">
+                <h2><i class="fas fa-headset"></i> Technical Support</h2>
+                <div class="content-block">
+                    <h3>Open Support Ticket</h3>
+                    <ol>
+                        <li>Sidebar → <strong>Support</strong></li>
+                        <li>Click <strong>Open New Ticket</strong></li>
+                        <li>Fill in the form with details</li>
+                        <li>Click <strong>Submit</strong></li>
+                    </ol>
+
+                    <h3>Response Times</h3>
+                    <div class="table-responsive">
+                        <table class="docs-table">
+                            <thead>
+                                <tr>
+                                    <th>Priority</th>
+                                    <th>Response Time</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><span class="badge badge-danger">Urgent</span></td>
+                                    <td>Within 1 hour</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="badge badge-warning">High</span></td>
+                                    <td>Within 4 hours</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="badge badge-info">Medium</span></td>
+                                    <td>Within 12 hours</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="badge badge-secondary">Low</span></td>
+                                    <td>Within 24 hours</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="alert alert-success">
+                        <i class="fas fa-comments"></i>
+                        <div>
+                            <strong>Live Chat</strong>
+                            <p>Available 24/7 for instant responses to your inquiries</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="settings" class="section">
+                <h2><i class="fas fa-cog"></i> Settings & Account</h2>
+                <div class="content-block">
+                    <h3>Change Password</h3>
+                    <ol>
+                        <li>Profile → <strong>Security</strong></li>
+                        <li>Click <strong>Change Password</strong></li>
+                        <li>Enter current and new password</li>
+                        <li>Click <strong>Update</strong></li>
+                    </ol>
+
+                    <h3>Two-Factor Authentication (2FA)</h3>
+                    <div class="alert alert-warning">
+                        <i class="fas fa-shield-alt"></i>
+                        <div>
+                            <strong>We strongly recommend enabling 2FA</strong>
+                            <p>To protect your account from unauthorized access</p>
+                        </div>
+                    </div>
+                    <ol>
+                        <li>Profile → <strong>Security</strong></li>
+                        <li>Click <strong>Enable 2FA</strong></li>
+                        <li>Scan QR Code with Google Authenticator</li>
+                        <li>Enter code to confirm</li>
+                        <li>Save Backup Codes in a safe place</li>
+                    </ol>
+                </div>
+            </section>
+
+            <section id="faq" class="section">
+                <h2><i class="fas fa-question-circle"></i> Frequently Asked Questions</h2>
+                <div class="content-block">
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <button class="accordion-header" onclick="toggleAccordion(this)">
+                                <span>How do I change domain nameservers?</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="accordion-content">
+                                <ol>
+                                    <li>Domains → Select domain</li>
+                                    <li>Manage → Nameservers</li>
+                                    <li>Enter: <code>ns1.nutro.cloud</code> and <code>ns2.nutro.cloud</code></li>
+                                    <li>Save changes</li>
+                                    <li>Wait 24-48 hours for activation</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-header" onclick="toggleAccordion(this)">
+                                <span>Forgot password?</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="accordion-content">
+                                <ol>
+                                    <li>Login page</li>
+                                    <li>Click <strong>Forgot Password</strong></li>
+                                    <li>Enter email address</li>
+                                    <li>Open reset email</li>
+                                    <li>Enter new password</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-header" onclick="toggleAccordion(this)">
+                                <span>Website not working after nameserver change?</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="accordion-content">
+                                <ul>
+                                    <li>Wait 24-48 hours (DNS Propagation)</li>
+                                    <li>Clear browser cache</li>
+                                    <li>Try from another device or network</li>
+                                    <li>Check A Record</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="nutro-free" class="section collapsible-section">
+                <div class="section-toggle" onclick="toggleSection('nutro-free-content')">
+                    <h2><i class="fas fa-gift"></i> Nutro Cloud Free Tier - Complete Guide</h2>
+                    <i class="fas fa-chevron-down toggle-icon"></i>
+                </div>
+                
+                <div id="nutro-free-content" class="collapsible-content">
+                    <div class="content-block">
+                        <div class="alert alert-success">
+                            <i class="fas fa-star"></i>
+                            <div>
+                                <strong>Welcome to Nutro Cloud Free Dashboard</strong>
+                                <p>This free tier is designed for developers, students, and beginners to learn server basics and develop simple projects. Perfect for testing and experimentation!</p>
+                            </div>
+                        </div>
+
+                        <h3>Why Choose Nutro Cloud Free?</h3>
+                        <p>Nutro Cloud Free is the perfect starting point for anyone looking to learn cloud hosting, server management, and application deployment without any financial commitment. Whether you're a student learning web development, a developer testing new ideas, or a hobbyist building personal projects, our free tier provides everything you need to get started.</p>
+
+                        <h3>Free Tier Benefits</h3>
+                        <div class="cards-grid">
+                            <div class="card">
+                                <i class="fas fa-infinity card-icon"></i>
+                                <h4>Unlimited Time</h4>
+                                <p>No expiration date! Keep your projects running forever</p>
+                            </div>
+                            <div class="card">
+                                <i class="fas fa-tachometer-alt card-icon"></i>
+                                <h4>Best Performance</h4>
+                                <p>Optimized infrastructure for free users</p>
+                            </div>
+                            <div class="card">
+                                <i class="fas fa-graduation-cap card-icon"></i>
+                                <h4>Perfect for Learning</h4>
+                                <p>Ideal for testing and educational projects</p>
+                            </div>
+                            <div class="card">
+                                <i class="fas fa-arrow-up card-icon"></i>
+                                <h4>Easy Upgrade</h4>
+                                <p>Seamlessly upgrade to Pro anytime</p>
+                            </div>
+                            <div class="card">
+                                <i class="fas fa-users card-icon"></i>
+                                <h4>Community Support</h4>
+                                <p>Active Discord community for help</p>
+                            </div>
+                            <div class="card">
+                                <i class="fas fa-code card-icon"></i>
+                                <h4>Multiple Languages</h4>
+                                <p>Node.js, Python, and more supported</p>
+                            </div>
+                        </div>
+
+                        <div class="alert alert-info">
+                            <i class="fas fa-rocket"></i>
+                            <div>
+                                <strong>Upgrade to Nutro Pro</strong>
+                                <p>Get 100x better performance, dedicated resources, priority support, and advanced features for production projects. Perfect for businesses and serious developers.</p>
+                            </div>
+                        </div>
+
+                        <h3>Getting Started with Nutro Free</h3>
+                        <div class="steps">
+                            <div class="step">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h4>Step 1: Create Your Account</h4>
+                                    <p>Sign up for free at Nutro Cloud and get instant access to all free tier features.</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h4>Step 2: Link Your Discord (Important!)</h4>
+                                    <p>Connect your Discord account to unlock full features, receive support, and join our community. This is required for account verification and support access.</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h4>Step 3: Create Your First Server</h4>
+                                    <ul>
+                                        <li>Check your coin balance (top right corner)</li>
+                                        <li>Navigate to <strong>Servers</strong> page</li>
+                                        <li>Click <strong>Create Server</strong> button</li>
+                                        <li>Choose server type (Node.js, Python, MySQL, VPS)</li>
+                                        <li>Select version and configuration</li>
+                                        <li>Click create and wait for deployment!</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3>Coin System - How It Works</h3>
+                        <p>Nutro Cloud Free uses a coin-based system to manage resources fairly. Coins are virtual currency that you can earn daily and use to create and maintain servers.</p>
+                        
+                        <div class="alert alert-warning">
+                            <i class="fas fa-coins"></i>
+                            <div>
+                                <strong>Daily Reward System</strong>
+                                <p>Click <strong>Earn Coins</strong> in sidebar → Wait 120 seconds → Receive 10 coins daily!</p>
+                                <p>You only need 50 coins per month to keep your server running forever. That's just 5 days of daily rewards!</p>
+                            </div>
+                        </div>
+
+                        <h4>Ways to Earn More Coins</h4>
+                        <ul>
+                            <li><strong>Daily Login:</strong> Get 10 coins every day (120 second wait)</li>
+                            <li><strong>Discord Events:</strong> Weekly giveaways with bonus coins</li>
+                            <li><strong>Community Participation:</strong> Help others and earn rewards</li>
+                            <li><strong>Referral Program:</strong> Invite friends and get bonus coins</li>
+                            <li><strong>Shop Purchases:</strong> Buy coin packages for instant access</li>
+                        </ul>
+
+                        <h4>What Can You Do With Coins?</h4>
+                        <ul>
+                            <li>Create new servers (Node.js, Python, MySQL, VPS)</li>
+                            <li>Upgrade server resources (RAM, CPU, Storage)</li>
+                            <li>Buy additional server slots</li>
+                            <li>Extend server runtime</li>
+                            <li>Access premium features</li>
+                        </ul>
+
+                        <h3>Node.js Hosting - Complete Guide</h3>
+                        <p>Host your Node.js applications, Discord bots, REST APIs, and web servers completely free. Perfect for JavaScript developers and beginners learning backend development.</p>
+
+                        <h4>Creating a Node.js Server</h4>
+                        <ol>
+                            <li>Go to <strong>Servers</strong> page from sidebar</li>
+                            <li>Click <strong>Create Server</strong> button</li>
+                            <li>Select <strong>Node.js</strong> as server type</li>
+                            <li>Choose Node.js version (14.x, 16.x, 18.x, 20.x)</li>
+                            <li>Ensure you have enough coins (check balance)</li>
+                            <li>Click <strong>Create</strong> and wait for deployment</li>
+                            <li>After creation, click <strong>Manage</strong> to access panel</li>
+                        </ol>
+
+                        <h4>Managing Your Node.js Server</h4>
+                        <p>Once your server is created, you'll have access to a powerful management panel:</p>
+                        <ul>
+                            <li><strong>Files Tab:</strong> Upload, edit, and manage your project files</li>
+                            <li><strong>Console Tab:</strong> View real-time logs and start/stop your application</li>
+                            <li><strong>Terminal Tab:</strong> Execute commands and install packages</li>
+                            <li><strong>Settings Tab:</strong> Configure environment variables and startup commands</li>
+                        </ul>
+
+                        <div class="image-placeholder">
+                            <i class="fas fa-image"></i>
+                            <p>Node.js Management Panel Screenshot</p>
+                        </div>
+
+                        <h4>Uploading Your Node.js Project</h4>
+                        <ol>
+                            <li>Click <strong>Files</strong> tab in your server panel</li>
+                            <li>Upload your project files (package.json, index.js, etc.)</li>
+                            <li>Go to <strong>Terminal</strong> tab</li>
+                            <li>Run <code>npm install</code> to install dependencies</li>
+                            <li>Go to <strong>Console</strong> tab</li>
+                            <li>Click <strong>Start</strong> to run your application</li>
+                            <li>Copy the <strong>Address</strong> to access your server</li>
+                        </ol>
+
+                        <h4>Supported Node.js Features & Frameworks</h4>
+                        <ul>
+                            <li><strong>Web Frameworks:</strong> Express.js, Fastify, Koa, Hapi, NestJS</li>
+                            <li><strong>Discord Bots:</strong> Discord.js, Eris, Discord.io</li>
+                            <li><strong>Telegram Bots:</strong> node-telegram-bot-api, Telegraf</li>
+                            <li><strong>REST APIs:</strong> Build and deploy RESTful services</li>
+                            <li><strong>WebSocket:</strong> Real-time communication with Socket.io</li>
+                            <li><strong>Database Clients:</strong> MySQL, MongoDB, PostgreSQL, Redis</li>
+                            <li><strong>NPM Packages:</strong> Install any package from npm registry</li>
+                            <li><strong>Environment Variables:</strong> Secure configuration management</li>
+                            <li><strong>Process Management:</strong> Auto-restart on crash</li>
+                        </ul>
+
+                        <h4>Node.js Best Practices</h4>
+                        <ul>
+                            <li>Always use <code>package.json</code> for dependency management</li>
+                            <li>Set proper start script in package.json</li>
+                            <li>Use environment variables for sensitive data</li>
+                            <li>Implement error handling and logging</li>
+                            <li>Keep your Node.js version updated</li>
+                            <li>Monitor resource usage in console</li>
+                        </ul>
+
+                        <h3>Python Hosting - Complete Guide</h3>
+                        <p>Deploy Python applications, Discord bots, web scrapers, data processing scripts, and Flask/Django web applications. Ideal for Python developers and data scientists.</p>
+
+                        <h4>Creating a Python Server</h4>
+                        <ol>
+                            <li>Navigate to <strong>Servers</strong> page</li>
+                            <li>Click <strong>Create Server</strong></li>
+                            <li>Select <strong>Python</strong> as server type</li>
+                            <li>Choose Python version (3.8, 3.9, 3.10, 3.11)</li>
+                            <li>Verify coin balance is sufficient</li>
+                            <li>Click <strong>Create</strong> and wait for setup</li>
+                            <li>Click <strong>Manage</strong> to access control panel</li>
+                        </ol>
+
+                        <h4>Managing Your Python Server</h4>
+                        <ul>
+                            <li><strong>Files Tab:</strong> Upload Python scripts and project files</li>
+                            <li><strong>Console Tab:</strong> Run scripts and view output</li>
+                            <li><strong>Terminal Tab:</strong> Install packages with pip</li>
+                            <li><strong>Settings Tab:</strong> Configure Python path and startup script</li>
+                        </ul>
+
+                        <div class="image-placeholder">
+                            <i class="fas fa-image"></i>
+                            <p>Python Management Panel Screenshot</p>
+                        </div>
+
+                        <h4>Deploying Your Python Application</h4>
+                        <ol>
+                            <li>Open <strong>Files</strong> tab</li>
+                            <li>Upload your Python files (main.py, requirements.txt)</li>
+                            <li>Switch to <strong>Terminal</strong> tab</li>
+                            <li>Run <code>pip install -r requirements.txt</code></li>
+                            <li>Go to <strong>Console</strong> tab</li>
+                            <li>Execute your script with <code>python main.py</code></li>
+                            <li>Copy server <strong>Address</strong> for external access</li>
+                        </ol>
+
+                        <h4>Supported Python Features & Libraries</h4>
+                        <ul>
+                            <li><strong>Web Frameworks:</strong> Flask, Django, FastAPI, Bottle, Tornado</li>
+                            <li><strong>Discord Bots:</strong> Discord.py, Nextcord, Pycord</li>
+                            <li><strong>Telegram Bots:</strong> python-telegram-bot, aiogram</li>
+                            <li><strong>Web Scraping:</strong> BeautifulSoup, Scrapy, Selenium</li>
+                            <li><strong>Data Processing:</strong> Pandas, NumPy, SciPy</li>
+                            <li><strong>Machine Learning:</strong> scikit-learn, TensorFlow Lite</li>
+                            <li><strong>Database:</strong> SQLAlchemy, PyMongo, psycopg2</li>
+                            <li><strong>API Clients:</strong> Requests, aiohttp, httpx</li>
+                            <li><strong>Task Scheduling:</strong> APScheduler, Celery</li>
+                        </ul>
+
+                        <h4>Python Development Tips</h4>
+                        <ul>
+                            <li>Use virtual environments for package isolation</li>
+                            <li>Create requirements.txt for dependencies</li>
+                            <li>Implement proper exception handling</li>
+                            <li>Use logging module for debugging</li>
+                            <li>Keep Python version compatible with libraries</li>
+                            <li>Monitor memory usage for data processing</li>
+                        </ul>
+
+                        <h3>MySQL Database Hosting</h3>
+                        <p>Get free MySQL database hosting for your applications. Perfect for storing user data, application state, and persistent information.</p>
+
+                        <div class="alert alert-warning">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            <div>
+                                <strong>Important Connection Note</strong>
+                                <p>Free MySQL databases cannot connect to internal Nutro services for security reasons. You must connect from external applications or services outside Nutro Cloud infrastructure.</p>
+                            </div>
+                        </div>
+
+                        <h4>Creating MySQL Database</h4>
+                        <ol>
+                            <li>Go to <strong>Servers</strong> page</li>
+                            <li>Click <strong>Create Server</strong></li>
+                            <li>Select <strong>MySQL</strong> as server type</li>
+                            <li>Choose MySQL version (5.7, 8.0)</li>
+                            <li>Ensure sufficient coins available</li>
+                            <li>Click <strong>Create</strong></li>
+                            <li>Access <strong>Manage</strong> panel for credentials</li>
+                        </ol>
+
+                        <h4>Connection Details</h4>
+                        <p>After creating your MySQL database, you'll receive:</p>
+                        <ul>
+                            <li><strong>Host:</strong> Database server address</li>
+                            <li><strong>Port:</strong> Connection port (usually 3306)</li>
+                            <li><strong>Username:</strong> Database username</li>
+                            <li><strong>Password:</strong> Database password</li>
+                            <li><strong>Database Name:</strong> Your database name</li>
+                        </ul>
+
+                        <h4>Connecting from Applications</h4>
+                        <div class="code-block">
+                            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i></button>
+                            <pre><code>// Node.js Example
+const mysql = require('mysql2');
+const connection = mysql.createConnection({
+  host: 'your-host',
+  port: 3306,
+  user: 'your-username',
+  password: 'your-password',
+  database: 'your-database'
+});
+
+# Python Example
+import mysql.connector
+conn = mysql.connector.connect(
+  host='your-host',
+  port=3306,
+  user='your-username',
+  password='your-password',
+  database='your-database'
+)</code></pre>
+                        </div>
+
+                        <h4>MySQL Features</h4>
+                        <ul>
+                            <li>Full SQL support with InnoDB engine</li>
+                            <li>Remote access from external applications</li>
+                            <li>phpMyAdmin access for management</li>
+                            <li>Database backup and restore</li>
+                            <li>Multiple database support</li>
+                            <li>User privilege management</li>
+                        </ul>
+
+                        <h3>VPS Hosting (Free Tier)</h3>
+                        <p>Get a free Virtual Private Server for testing and learning Linux server administration. Perfect for experimenting with server configurations and learning DevOps.</p>
+
+                        <div class="alert alert-info">
+                            <i class="fas fa-info-circle"></i>
+                            <div>
+                                <strong>Testing Environment Notice</strong>
+                                <p>Free VPS is designed for testing and learning purposes with proot user access. For production projects requiring full root access and dedicated resources, we strongly recommend upgrading to paid VPS plans.</p>
+                            </div>
+                        </div>
+
+                        <h4>Creating Free VPS</h4>
+                        <ol>
+                            <li>Navigate to <strong>Servers</strong> page</li>
+                            <li>Click <strong>Create Server</strong></li>
+                            <li>Select <strong>VPS</strong> as server type</li>
+                            <li>Choose operating system (Ubuntu, Debian, CentOS)</li>
+                            <li>Verify coin balance</li>
+                            <li>Click <strong>Create</strong></li>
+                            <li>Wait for VPS provisioning (2-5 minutes)</li>
+                        </ol>
+
+                        <h4>Accessing Your VPS</h4>
+                        <p>Free VPS uses web-based console for access. No direct SSH initially.</p>
+                        
+                        <h5>Using Web Console</h5>
+                        <ol>
+                            <li>After VPS creation, click <strong>Manage</strong></li>
+                            <li>Click <strong>Console</strong> tab</li>
+                            <li>Use the web-based terminal to access your VPS</li>
+                            <li>Login with provided credentials</li>
+                            <li>Start managing your server through the browser</li>
+                        </ol>
+
+                        <div class="alert alert-info">
+                            <i class="fas fa-terminal"></i>
+                            <div>
+                                <strong>Web Console Access</strong>
+                                <p>Free tier VPS uses web console instead of direct SSH. You can configure SSH access manually later if needed.</p>
+                            </div>
+                        </div>
+
+                        <h5>Enable SSH Access (Optional)</h5>
+                        <p>If you want to enable SSH access from your local machine:</p>
+                        <div class="code-block">
+                            <button class="copy-btn" onclick="copyCode(this)"><i class="fas fa-copy"></i></button>
+                            <pre><code># In web console, configure SSH
+# Install and configure SSH server
+sudo apt update
+sudo apt install openssh-server
+sudo systemctl enable ssh
+sudo systemctl start ssh
+
+# Then connect from your machine
+ssh username@your-vps-ip</code></pre>
+                        </div>
+
+                        <h4>VPS Capabilities</h4>
+                        <ul>
+                            <li>Web console access for remote management</li>
+                            <li>Install packages with package manager</li>
+                            <li>Run web servers (Apache, Nginx)</li>
+                            <li>Deploy applications and services</li>
+                            <li>Configure firewall rules</li>
+                            <li>Schedule tasks with cron</li>
+                            <li>Optional: Configure SSH for external access</li>
+                        </ul>
+
+                        <h4>Free VPS Limitations</h4>
+                        <ul>
+                            <li><strong>Proot User:</strong> Non-root access (limited system permissions)</li>
+                            <li><strong>Web Console:</strong> Access via browser, SSH requires manual setup</li>
+                            <li><strong>Resources:</strong> Shared CPU and limited RAM</li>
+                            <li><strong>Network:</strong> Shared bandwidth</li>
+                            <li><strong>Storage:</strong> Limited disk space</li>
+                            <li><strong>Purpose:</strong> Testing and learning only</li>
+                            <li><strong>Recommendation:</strong> Upgrade to paid plans for production</li>
+                        </ul>
+
+                        <h3>Free Tier FAQ</h3>
+                        <div class="accordion">
+                            <div class="accordion-item">
+                                <button class="accordion-header" onclick="toggleAccordion(this)">
+                                    <span>How long can I use the free tier?</span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </button>
+                                <div class="accordion-content">
+                                    <p>Forever! There's no time limit on Nutro Cloud Free. As long as you maintain your coin balance through daily rewards, your servers will keep running indefinitely.</p>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <button class="accordion-header" onclick="toggleAccordion(this)">
+                                    <span>What happens if I run out of coins?</span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </button>
+                                <div class="accordion-content">
+                                    <p>Your servers will be suspended until you earn more coins. Simply claim your daily reward or purchase coins from the shop to reactivate your services.</p>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <button class="accordion-header" onclick="toggleAccordion(this)">
+                                    <span>Can I run multiple servers on free tier?</span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </button>
+                                <div class="accordion-content">
+                                    <p>Yes! You can create multiple servers as long as you have enough coins. Each server type has different coin requirements.</p>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <button class="accordion-header" onclick="toggleAccordion(this)">
+                                    <span>Is my data safe on free tier?</span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </button>
+                                <div class="accordion-content">
+                                    <p>Yes, we implement the same security measures for free and paid tiers. However, we recommend regular backups for important data.</p>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <button class="accordion-header" onclick="toggleAccordion(this)">
+                                    <span>Can I upgrade from free to paid?</span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </button>
+                                <div class="accordion-content">
+                                    <p>Absolutely! You can upgrade to Nutro Pro anytime from your dashboard. Your data and configurations will be preserved during the upgrade.</p>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <button class="accordion-header" onclick="toggleAccordion(this)">
+                                    <span>What's the difference between free and paid VPS?</span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </button>
+                                <div class="accordion-content">
+                                    <p>Free VPS uses proot user with limited permissions and shared resources. Paid VPS offers full root access, dedicated resources, better performance, and priority support.</p>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <button class="accordion-header" onclick="toggleAccordion(this)">
+                                    <span>Can I use free tier for production?</span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </button>
+                                <div class="accordion-content">
+                                    <p>Free tier is designed for testing, learning, and small personal projects. For production applications, we strongly recommend upgrading to paid plans for better performance, reliability, and support.</p>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <button class="accordion-header" onclick="toggleAccordion(this)">
+                                    <span>How do I get support for free tier?</span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </button>
+                                <div class="accordion-content">
+                                    <p>Join our Discord community for community support. Paid users get priority ticket support with faster response times.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3>Upgrade to Nutro Pro</h3>
+                        <p>Ready to take your projects to the next level? Nutro Pro offers:</p>
+                        <ul>
+                            <li><strong>100x Better Performance:</strong> Dedicated resources and optimized infrastructure</li>
+                            <li><strong>Full Root Access:</strong> Complete control over your VPS</li>
+                            <li><strong>Priority Support:</strong> 24/7 ticket support with fast response times</li>
+                            <li><strong>Advanced Features:</strong> Load balancers, auto-scaling, monitoring</li>
+                            <li><strong>No Coin System:</strong> Traditional billing with predictable costs</li>
+                            <li><strong>SLA Guarantee:</strong> 99.9% uptime guarantee</li>
+                            <li><strong>Backup & Recovery:</strong> Automated backups and disaster recovery</li>
+                            <li><strong>Custom Domains:</strong> Free SSL certificates and domain management</li>
+                        </ul>
+
+                        <div class="alert alert-success">
+                            <i class="fas fa-crown"></i>
+                            <div>
+                                <strong>Special Upgrade Offer</strong>
+                                <p>Upgrade now and get 20% off your first 3 months! Use code: UPGRADE20</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="footer-wrapper">
+                    <div class="footer-content">
+                        <div class="footer-section">
+                            <h4>Contact Information</h4>
+                            <p><i class="fas fa-envelope"></i> support@nutro.cloud</p>
+                            <p><i class="fab fa-whatsapp"></i> +201226588784</p>
+                        </div>
+                        <div class="footer-section">
+                            <h4>Useful Links</h4>
+                            <a href="https://nutro.cloud">Main Website</a>
+                            <a href="https://nutro.cloud/free">Free Hosting</a>
+                            <a href="https://youtube.com/@7tteam">YouTube Channel</a>
+                        </div>
+                        <div class="footer-section">
+                            <h4>Services</h4>
+                            <a href="#vps">VPS Hosting</a>
+                            <a href="#domains">Domain Registration</a>
+                            <a href="#hosting">Web Hosting</a>
+                            <a href="#nutro-free">Free Tier</a>
+                        </div>
+                        <div class="footer-section">
+                            <h4>Follow Us</h4>
+                            <div class="social-links">
+                                <a href="https://youtube.com/@7tteam" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                                <a href="https://x.com/7tteame" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                <a href="https://instagram.com/7tteam.inc" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="https://github.com/7tteam_inc" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <p>&copy; <span id="currentYear"></span> NutroCloud. All rights reserved. | <a href="https://7tteam.com/privacy-policy" target="_blank">Privacy Policy</a> | <a href="https://7tteam.com/termsofservices?i=1" target="_blank">Terms of Service</a></p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </main>
+
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="script.js"></script>
+</body>
+</html>
